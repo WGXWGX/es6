@@ -1,6 +1,4 @@
 
-
-
 // function fn1(callback){
 // 	setTimeout(function(){
 // 		console.log(1);
@@ -52,9 +50,6 @@
 // }).catch(function(){
 // 	console.log("err");
 // });
-
-
-
 var aa = Promise.race([new Promise(function(resolve,reject){
 	setTimeout(function(){
 		resolve(1);
